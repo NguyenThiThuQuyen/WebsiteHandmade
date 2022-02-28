@@ -1,14 +1,15 @@
 import React from 'react'
+import CenterMode  from '../../components/Content/Content'
 import Header from '../../components/Header/Header'
 import Slide from '../../components/Slide/Slide'
-import Footer from '../../components/Footer/Footer'
+
 
 function Home() {
   return (
-    <div>
+    <div className='bg-color'>
         <Header />
         <Slide />
-        <Footer />
+        <CenterMode />
     </div>
   )
 }
